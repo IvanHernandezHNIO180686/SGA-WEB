@@ -1,0 +1,809 @@
+
+.bodyAdmin{
+    background-image: url("../images/fondo3-opp.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    min-height: 640px;
+}
+
+.bodyProfesores{
+    background-image: url("../images/fondo10-opp.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    min-height: 640px;
+}
+
+.contenedorTabla{
+    margin: auto;
+    width: 90%;
+}
+
+
+.parrafo{
+    margin: auto;
+    width: 95%;
+}
+
+.search{
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.eliminar{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+/*
+**********************************************************************************************************
+***********************************************Página de Inicio***************************************
+**********************************************************************************************************
+*/
+
+.aceptar{
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.denegar{
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+/*
+**********************************************************************************************************
+***********************************************Otros Estilos****************************************
+**********************************************************************************************************
+*/
+
+/*
+##########################################            Perfil         #################################
+*/
+
+.FotoPerfil{
+    width: 60%;
+    height: 40%;
+    margin: auto;
+}
+
+
+
+.datosPerfilAmarillo{
+    border: solid rgb(79,31,145);
+    background-color: rgba(251, 176, 52, .8);
+    width: 40%;
+    margin:auto;
+    margin-top: -100px;
+    padding: 5px 35px;
+    padding-top: 6rem;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+.forma-perfilAmarillo{
+    border-radius: 50%;
+    border: 5px solid rgb(79,31,145);
+    margin-left: 42%;
+    background-color: #fff;
+}
+
+.datosPerfilAmarillo .datos-label{
+    display: block;
+    color:  rgb(79,31,145);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.datosPerfilAmarillo .datos-input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79,31,145);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+
+
+
+.datosPerfilMorado{
+    border: solid rgb(251, 176, 52);
+    background-color: rgb(79, 31, 145,.8);
+    width: 40%;
+    margin:auto;
+    margin-top: -100px;
+    padding: 5px 35px;
+    padding-top: 7rem;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+.forma-perfilMorado{
+    border-radius: 50%;
+    border: 5px solid rgb(251, 176, 52);
+    margin-left: 42%;
+    background-color: #fff;
+}
+
+.datosPerfilMorado .datos-label{
+    display: block;
+    color:  rgb(251, 176, 52);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.datosPerfilMorado .datos-input{
+    border: none;
+    background-color: rgb(79, 31, 145);
+    color: white;
+    outline: none;
+    border-bottom: 2px solid rgb(251, 176, 52);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+/*
+##########################################            Titulos Profesor          #################################
+*/
+
+.titulosProfesor{
+    color: rgb(79, 31, 145);
+}
+
+
+
+/*
+##########################################            Grafica          #################################
+*/
+
+.grafica{
+    margin: auto;
+}
+
+/*
+##########################################            Comités            #################################
+*/
+
+.datosComite{
+    width: 25%;
+}
+.listaIntegrantes{
+    width: 75%;
+}
+.contenedorComite-datos{
+    background-color: rgba(251, 176, 52,.7);
+    width: 90%;
+    margin:auto;
+    padding: 5px 35px;
+    padding-top: 1rem;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+.contenedorComite-datos .contenedorInto .datosComite label{
+    display: block;
+    color: rgb(79, 31, 145);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+.contenedorComite-datos .contenedorInto .datosComite input{
+    background-color: rgb(251, 176, 52);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 85%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.contenedorComite-datos .contenedorBotones{
+    margin-top: 3%;
+}
+.check{
+    margin: auto;
+}
+
+/*
+##########################################            Comités            #################################
+*/
+
+.btnEliminar-Reunion{
+    border-radius: 0;
+}
+
+
+/*
+##########################################            Usuarios            #################################
+*/
+.btn-eliminar-User{
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.formularioContenedorAsignar{
+    background-color: rgba(251, 176, 52,.7);
+    width: 40%;
+    margin:auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+.formularioContenedorAsignar .Formu-asignarUser .botones{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.formularioContenedorAsignar .Formu-asignarUser .form-label{
+    display: block;
+    color: rgb(79, 31, 145);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.formularioContenedorAsignar .Formu-asignarUser  .form-input{
+    background-color: rgb(251, 176, 52);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.formularioContenedorAsignar .Formu-asignarUser  .form-select{
+    background-color: rgb(251, 176, 52);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*
+##########################################            Reunion            #################################
+*/
+
+
+
+.DatosReunion{
+    background-color: rgba(79, 31, 145,.8);
+    width: 60%;
+    margin:auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+
+.DatosReunion .datos-label{
+    display: block;
+    color:  rgb(251, 176, 52);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.DatosReunion .datos-input{
+    background-color: rgb(79, 31, 145);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(251, 176, 52);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: white;
+}
+
+.DatosReunion .btnCancelar-Reunion{
+    margin: auto;
+}
+
+.DatosReunion .botonesEstatus{
+    width: 40%;
+    margin: auto;
+}
+
+.DatosReunion .botonesEstatus .botones{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/*
+##########################################            Acuerdo            #################################
+*/
+
+.btnEliminar-Acuerdo{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.DatosAcuerdo{
+    background-color: rgba(79, 31, 145,.8);
+    width: 60%;
+    margin:auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+
+.DatosAcuerdo .datos-label{
+    display: block;
+    color:  rgb(251, 176, 52);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.DatosAcuerdo .datos-input{
+    background-color: rgb(79, 31, 145);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(251, 176, 52);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: white;
+}
+
+.title-Req{
+    color: rgb(251, 176, 52);
+}
+
+.contenedorDatosAcuerdo{
+    width: 70%;
+    margin:auto;
+    padding: 5px 35px;
+    padding-top: 1rem;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+    border: solid  black ;
+}
+.contenedorDatosAcuerdo .datos-label{
+    display: block;
+    color: rgb(79, 31, 145);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+.contenedorDatosAcuerdo .datos-input{
+    display: block;
+    background-color: rgb(251, 176, 52);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 90%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+/*
+**********************************************************************************************************
+***************************************Estilos de los formularios de crear********************************
+**********************************************************************************************************
+*/
+
+.formularioContenedorNew{
+    background-color: rgba(251, 176, 52,.7);
+    width: 40%;
+    margin:auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+/*
+##########################################        Auditorias          ####################################
+*/
+
+.formularioContenedorNew .FnuevaAuditoria .form-label{
+    display: block;
+    color: rgb(79, 31, 145);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.formularioContenedorNew .FnuevaAuditoria .form-input{
+    background-color: rgb(251, 176, 52);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.formularioContenedorNew .FnuevaAuditoria .botones{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.formularioContenedorNew .FnuevaAuditoria .form-textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+    background-color: rgb(251, 176, 52);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+/*
+##########################################        Comites          ####################################
+*/
+
+
+.formularioContenedorNew .FnuevoComite .form-label{
+    display: block;
+    color: rgb(79, 31, 145);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.formularioContenedorNew .FnuevoComite .form-input{
+    background-color: rgb(251, 176, 52);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.formularioContenedorNew .FnuevoComite .botones{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+
+/*
+##########################################        Usuarios         ####################################
+*/
+
+.formularioContenedorNew .FnuevoUsuario .form-label{
+    display: block;
+    color: rgb(79, 31, 145);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.formularioContenedorNew .FnuevoUsuario .form-input{
+    background-color: rgb(251, 176, 52);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.formularioContenedorNew .FnuevoUsuario .botones{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+/*
+##########################################        Reuniones          ####################################
+*/
+
+.tituloSreunion{
+    color: rgb(251, 176, 52);
+}
+
+
+.formularioContenedorNew .FnuevaReunion .form-label{
+    display: block;
+    color: rgb(79, 31, 145);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.formularioContenedorNew .FnuevaReunion .form-input{
+    background-color: rgb(251, 176, 52);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.formularioContenedorNew .FnuevaReunion .botones{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.formularioContenedorNew .FnuevaReunion .form-textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+    background-color: rgb(251, 176, 52);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+/*
+##########################################        Acuerdos          ####################################
+*/
+
+.formularioContenedorNew .FnuevoAcuerdo .form-label{
+    display: block;
+    color: rgb(79, 31, 145);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.formularioContenedorNew .FnuevoAcuerdo .form-input{
+    background-color: rgb(251, 176, 52);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.formularioContenedorNew .FnuevoAcuerdo .botones{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.formularioContenedorNew .FnuevoAcuerdo .form-textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+    background-color: rgb(251, 176, 52);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.modal-Requerimientos{
+    background-color: rgb(251, 176, 52);
+}
+
+.modal-Requerimientos .form-label{
+    display: block;
+    color: rgb(79, 31, 145);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.modal-Requerimientos .form-input{
+    /* background-color: rgb(251, 176, 52); */
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+/*
+**********************************************************************************************************
+***************************************Estilos de los formularios de editar*******************************
+**********************************************************************************************************
+*/
+
+.formularioContenedorEdit{
+    background-color: rgba(245, 0, 3,.4);
+    width: 40%;
+    margin:auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+
+
+/*
+##########################################        Auditorias          ####################################
+*/
+
+
+
+.formularioContenedorEdit .Formu-editAuditoria .botones{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.formularioContenedorEdit .Formu-editAuditoria  .form-label{
+    display: block;
+    color: rgb(79, 31, 145);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.formularioContenedorEdit .Formu-editAuditoria  .form-input, .form-textarea{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+/*
+##########################################        Comites          ####################################
+*/
+
+.formularioEditCom-Cont{
+    background-color: rgba(245, 0, 3,.4);
+    width: 90%;
+    margin:auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+
+
+.formularioEditCom-Cont .Formu-editarComite .botones{
+    /* margin-left: 100px; */
+    margin-top: 20px;
+}
+
+.formularioEditCom-Cont .Formu-editarComite  .form-label{
+    display: block;
+    color: rgb(79, 31, 145);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.formularioEditCom-Cont .Formu-editarComite .form-input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 90%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+
+
+/*
+##########################################        Usuarios         ####################################
+*/
+
+.formularioContenedorEdit .Formu-editarUsuario .botones{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.formularioContenedorEdit .Formu-editarUsuario .form-label{
+    display: block;
+    color: rgb(79, 31, 145);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.formularioContenedorEdit .Formu-editarUsuario  .form-input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+/*
+##########################################        Reuniones          ####################################
+*/
+
+.formularioContenedorEdit .Formu-editarReunion .botones{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.formularioContenedorEdit .Formu-editarReunion .formu-label{
+    display: block;
+    color: rgb(79, 31, 145);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.formularioContenedorEdit .Formu-editarReunion  .formu-input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+
+/*
+##########################################        Acuerdos          ####################################
+*/
+
+.formularioContenedorEdit .Formu-editarAcuerdo .botones{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.formularioContenedorEdit .Formu-editarAcuerdo .form-label{
+    display: block;
+    color: rgb(79, 31, 145);
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.formularioContenedorEdit .Formu-editarAcuerdo  .form-input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.formularioContenedorEdit .Formu-editarAcuerdo  .form-select, .form-date{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(79, 31, 145);
+    width: 100%;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+}

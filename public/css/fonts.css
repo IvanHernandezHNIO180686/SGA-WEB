@@ -1,0 +1,14 @@
+@font-face {
+    font-family: adobe caslon pro;
+    src: url('../fonts/adobe-caslon-pro-4.otf');
+}
+
+h1{
+    font-family: adobe caslon pro;
+    text-align: center;
+}
+
+p{
+    font-family: adobe caslon pro;
+    font-size: 20px;
+}
